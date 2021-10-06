@@ -69,5 +69,3 @@ def loginUser(request):
             messages.error(request,'invalid credentials')
             return render(request,'login.html')
     return render(request,'login.html')
-
-# this comment is for tesing purpose
