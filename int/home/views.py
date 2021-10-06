@@ -69,3 +69,12 @@ def loginUser(request):
             messages.error(request,'invalid credentials')
             return render(request,'login.html')
     return render(request,'login.html')
+
+def about(request):
+    return render(request,'about.html')
+
+def contact(request):
+    return render(request,'contact.html')
+
+def services(request):
+    return render(request,'doctors.html')
